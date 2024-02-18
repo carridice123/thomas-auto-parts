@@ -1,0 +1,40 @@
+.swiper-container {
+  width: 100%;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: #000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  image-resolution: from-image 300dpi;
+}
+.gallery-top {
+  height: 75%;
+  width: 100%;
+}
+.gallery-thumbs {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  top: 140px;
+  color: red;
+  background-color: wheat;
+}
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}

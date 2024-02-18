@@ -1,0 +1,153 @@
+/* .firstnav {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+.firstnavul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+.navdiv {
+  display: flex;
+  border: 1px solid black;
+  width: 70%;
+  align-items: center;
+} */
+
+/* navigation starts here */
+
+/* base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logoimg {
+  width: 100%;
+  height: 47px;
+}
+.logoholder {
+  /* border: 1px solid black; */
+  width: 70px;
+  height: 50px;
+}
+.biggerlogo {
+  padding-top: 1rem;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.biggerlogoimg {
+  width: 100%;
+  height: 160px;
+}
+.sectionafternav {
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #6f86ff;
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+}
+/* image of shop */
+.shopimgholder {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.shopimg {
+  width: 70%;
+  height: 150px;
+}
+/* search bar */
+
+/* off-screen-menu */
+.off-screen-menu {
+  background-color: rgb(34, 37, 49);
+  height: 100vh;
+  width: 100%;
+  max-width: 450px;
+  position: fixed;
+  top: 0;
+  right: -450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  transition: 0.3s ease;
+}
+.off-screen-menu.active {
+  right: 0;
+}
+
+/* nav */
+nav {
+  padding: 1rem;
+  display: flex;
+  border: 2px red solid;
+  background-color: #fff;
+}
+
+/* ham menu */
+.ham-menu {
+  height: 50px;
+  width: 40px;
+  margin-left: auto;
+  position: relative;
+}
+.ham-menu span {
+  height: 5px;
+  width: 100%;
+  background-color: #f00;
+  border-radius: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+}
+.ham-menu span:nth-child(1) {
+  top: 25%;
+}
+.ham-menu span:nth-child(3) {
+  top: 75%;
+}
+.ham-menu.active span {
+  background-color: white;
+}
+.ham-menu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
