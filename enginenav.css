@@ -28,6 +28,7 @@ body {
 /* preorder link */
 .preorderlink {
   position: absolute;
+  display: flex;
   top: 5.4rem;
   left: 0.5rem;
   background-color: #4ade80;
