@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="../gallerytest.css">
+
 </head>
 
 <body>
-    <?php
-    include "../enginenav.php";
-    echo "<link rel='stylesheet' type='text/css' href='../enginenav.css' />";
-    echo "<script type='text/javascript' src='../nav2.js'></script>";
-    ?>
+    <section class="path">
+        <ul class="breadcrumb">
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../index.php">Next</a></li>
+    </section>
+
     <div class="card-wrapper">
         <div class="card">
             <!-- card left -->
@@ -60,12 +63,10 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
-                    <span>4.7(21)</span>
                 </div>
 
                 <div class="product-price">
-                    <p class="last-price">Old Price: <span>$257.00</span></p>
-                    <p class="new-price">New Price: <span>$249.00 (5%)</span></p>
+                    <p class="last-price">Price: Negotiable</p>
                 </div>
 
                 <div class="product-detail">
@@ -74,10 +75,10 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde.</p>
                     <ul>
                         <li>Color: <span>Black</span></li>
-                        <li>Available: <span>in stock</span></li>
-                        <li>Category: <span>Shoes</span></li>
-                        <li>Shipping Area: <span>All over the world</span></li>
-                        <li>Shipping Fee: <span>Free</span></li>
+                        <li>Available: <span>Yes</span></li>
+                        <li>Category: <span>Engine</span></li>
+                        <li>location: <span>Main street Chapelton</span></li>
+                        <li>Discout: <span>10% off when you follow us</span></li>
                     </ul>
                 </div>
 
@@ -111,10 +112,11 @@
         </div>
 
     </div>
-    <?php include '../contactus.php';
-    echo "<link rel='stylesheet' type='text/css' href='../contactus.css' />";
-
-    ?>
+    <section class="test">
+        <?php include '../pathnback.php';
+        echo "<link rel='stylesheet' type='text/css' href='../pathnback.css' />"
+        ?>
+    </section>
 
     <script src='../gallerytest.js'></script>
 </body>

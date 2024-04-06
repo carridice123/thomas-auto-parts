@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="../gallerytest.css">
 </head>
 
 <body>
-    <?php
-    include "nav2.php" ?>
+    <section class="path">
+        <ul class="breadcrumb">
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../index.php">Next</a></li>
+    </section>
+
     <div class="card-wrapper">
         <div class="card">
             <!-- card left -->
@@ -105,7 +111,13 @@
                 </div>
             </div>
         </div>
+
     </div>
+    <section class="test">
+        <?php include '../pathnback.php';
+        echo "<link rel='stylesheet' type='text/css' href='../pathnback.css' />"
+        ?>
+    </section>
     <script src='../gallerytest.js'></script>
 </body>
 

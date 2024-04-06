@@ -34,98 +34,102 @@
         </div>
     </section>
     <section class="body">
-        <section class="enginenosecut">
-            <section>
-                <div class="engines">
-                    <a href="#" class="enginelink">
-                        <h2 class="enginetext">Engines</h2>
 
-                    </a>
-                    <a href="#" class="moreengines">(more)</a>
-                </div>
-                <ul class="enginelist">
-                    <li><a href="./engines/1az.php" class="enginename">1AZ</a></li>
-                    <li><a href="./engines/1kr.php" class="enginename">1KR</a></li>
-                    <li><a href="./engines/1nz.php" class="enginename">1NZ</a></li>
-                    <li><a href="./engines/2nzprboxtype.php" class="enginename">2NZ Probox type</a></li>
-                    <li><a href="./engines/2zr.php" class="enginename">2ZR</a></li>
-                    <li><a href="./engines/cr12.php" class="enginename">CR12</a></li>
-                    <li><a href="./engines/hr15.php" class="enginename">HR15</a></li>
-                    <li><a href="./engines/l13ahondafit.php" class="enginename">L13A Honda fit</a></li>
-                    <li><a href="./engines/qg15.php" class="enginename">QG15</a></li>
-                    <li><a href="./engines/sr20.php" class="enginename">SR20</a></li>
-                </ul>
+        <section class="parts">
+            <section class="enginenosecut">
+                <section>
+                    <div class="engines">
+                        <a href="#" class="enginelink">
+                            <h2 class="enginetext">Engines</h2>
+
+                        </a>
+                        <a href="#" class="moreengines">(more)</a>
+                    </div>
+                    <ul class="enginelist">
+                        <li><a href="./engines/1az.php" class="enginename">1AZ</a></li>
+                        <li><a href="./engines/1kr.php" class="enginename">1KR</a></li>
+                        <li><a href="./engines/1nz.php" class="enginename">1NZ</a></li>
+                        <li><a href="./engines/2nzprboxtype.php" class="enginename">2NZ Probox type</a></li>
+                        <li><a href="./engines/2zr.php" class="enginename">2ZR</a></li>
+                        <li><a href="./engines/cr12.php" class="enginename">CR12</a></li>
+                        <li><a href="./engines/hr15.php" class="enginename">HR15</a></li>
+                        <li><a href="./engines/l13ahondafit.php" class="enginename">L13A Honda fit</a></li>
+                        <li><a href="./engines/qg15.php" class="enginename">QG15</a></li>
+                        <li><a href="./engines/sr20.php" class="enginename">SR20</a></li>
+                    </ul>
+
+                </section>
+
+                <section>
+                    <div class="nosecut">
+                        <a href="#" class="nosecutlink">
+                            <h2 class="nosetext">Nose Cut</h2>
+
+                        </a>
+                        <a href="#" class="more">(more)</a>
+
+
+                    </div>
+                    <ul class="nosecutlist">
+                        <li><a href="#" class="nosecutname">nosecut</a></li>
+                        <li><a href="#" class="nosecutname">nosecut</a></li>
+                        <li><a href="#" class="nosecutname">nosecut</a></li>
+                        <li><a href="#" class="nosecutname">nosecut</a></li>
+                        <li><a href="#" class="nosecutname">nosecut</a></li>
+                        <li><a href="#" class="nosecutname">nosecut</a></li>
+                        <li><a href="#" class="nosecutname">nosecut</a></li>
+                    </ul>
+
+                </section>
 
             </section>
+            <section class="trunkanddoor">
+                <section>
+                    <div class="trunk">
+                        <a href="#" class="trunklink">
+                            <h2 class="trunktext">Trunk</h2>
 
-            <section>
-                <div class="nosecut">
-                    <a href="#" class="nosecutlink">
-                        <h2 class="nosetext">Nose Cut</h2>
-
-                    </a>
-                    <a href="#" class="more">(more)</a>
+                        </a>
+                        <a href="#" class="more">(more)</a>
 
 
-                </div>
-                <ul class="nosecutlist">
-                    <li><a href="#" class="nosecutname">nosecut</a></li>
-                    <li><a href="#" class="nosecutname">nosecut</a></li>
-                    <li><a href="#" class="nosecutname">nosecut</a></li>
-                    <li><a href="#" class="nosecutname">nosecut</a></li>
-                    <li><a href="#" class="nosecutname">nosecut</a></li>
-                    <li><a href="#" class="nosecutname">nosecut</a></li>
-                    <li><a href="#" class="nosecutname">nosecut</a></li>
-                </ul>
+                    </div>
+                    <ul class="trunklist">
+                        <li><a href="#" class="trunkname">trunk</a></li>
+                        <li><a href="#" class="trunkname">trunk</a></li>
+                        <li><a href="#" class="trunkname">trunk</a></li>
+                        <li><a href="#" class="trunkname">trunk</a></li>
+                        <li><a href="#" class="trunkname">trunk</a></li>
+                        <li><a href="#" class="trunkname">trunk</a></li>
+                        <li><a href="#" class="trunkname">trunk</a></li>
+                    </ul>
+
+                </section>
+                <section>
+                    <div class="doors">
+                        <a href="#" class="doorlink">
+                            <h2 class="nosetext">Doors</h2>
+
+                        </a>
+                        <a href="#" class="more">(more)</a>
+
+
+                    </div>
+                    <ul class="doorlist">
+                        <li><a href="#" class="doorname">nosecut</a></li>
+                        <li><a href="#" class="doorname">nosecut</a></li>
+                        <li><a href="#" class="doorname">nosecut</a></li>
+                        <li><a href="#" class="doorname">nosecut</a></li>
+                        <li><a href="#" class="doorname">nosecut</a></li>
+                        <li><a href="#" class="doorname">nosecut</a></li>
+                        <li><a href="#" class="doorname">nosecut</a></li>
+                    </ul>
+
+                </section>
 
             </section>
-
         </section>
-        <section class="trunkanddoor">
-            <section>
-                <div class="trunk">
-                    <a href="#" class="trunklink">
-                        <h2 class="trunktext">Trunk</h2>
 
-                    </a>
-                    <a href="#" class="more">(more)</a>
-
-
-                </div>
-                <ul class="trunklist">
-                    <li><a href="#" class="trunkname">trunk</a></li>
-                    <li><a href="#" class="trunkname">trunk</a></li>
-                    <li><a href="#" class="trunkname">trunk</a></li>
-                    <li><a href="#" class="trunkname">trunk</a></li>
-                    <li><a href="#" class="trunkname">trunk</a></li>
-                    <li><a href="#" class="trunkname">trunk</a></li>
-                    <li><a href="#" class="trunkname">trunk</a></li>
-                </ul>
-
-            </section>
-            <section>
-                <div class="doors">
-                    <a href="#" class="doorlink">
-                        <h2 class="nosetext">Doors</h2>
-
-                    </a>
-                    <a href="#" class="more">(more)</a>
-
-
-                </div>
-                <ul class="doorlist">
-                    <li><a href="#" class="doorname">nosecut</a></li>
-                    <li><a href="#" class="doorname">nosecut</a></li>
-                    <li><a href="#" class="doorname">nosecut</a></li>
-                    <li><a href="#" class="doorname">nosecut</a></li>
-                    <li><a href="#" class="doorname">nosecut</a></li>
-                    <li><a href="#" class="doorname">nosecut</a></li>
-                    <li><a href="#" class="doorname">nosecut</a></li>
-                </ul>
-
-            </section>
-
-        </section>
         <!-- become a member section should be like a 'what you get when you become a member?' should be a drop down list   -->
         <section class="contactus">
             <?php include 'contactus.php' ?>

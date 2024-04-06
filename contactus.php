@@ -14,7 +14,7 @@
             <h1>join the Thomas Auto Family and get great discounts!!!</h1>
         </div>
         <div class="row">
-            <h4 style="text-align:center">We'd love to hear from you!</h4>
+            <h4 style="text-align:center">sign up to join our vip whatsapp group!!!</h4>
         </div>
         <div class="row input-container">
             <div class="col-xs-12">

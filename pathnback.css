@@ -1,0 +1,28 @@
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.backbtn {
+  width: 50%;
+  height: 90px;
+  /* border: 1px solid black; */
+  padding-left: 8.4rem;
+  padding-top: 1rem;
+}
+.backbtn a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
